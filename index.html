@@ -214,7 +214,7 @@ footer li a:hover{
 
 
 <body>
-
+<body onload="startTime();swapImage()">
 <script type="text/javascript">
 function startTime()
 {
@@ -245,7 +245,7 @@ if (i<10)
 return i
 }
 
-window.onload=startTime;
+/*window.onload=startTime;*/
 
 </script>
 
@@ -398,7 +398,7 @@ function swapImage()
    if(i < path.length - 1) i++; else i = 0;
    setTimeout("swapImage()",3000);
 }
-window.onload=swapImage;
+/*window.onload=swapImage;*/
 
 </script>
 
